@@ -1,4 +1,4 @@
-package dpattern.factory.simplefactorypattern.phonecase;
+package dpattern.factory.SimpleFactoryPattern.phonecase;
 
 public class PrincessPhoneCase implements PhoneCase{
     @Override

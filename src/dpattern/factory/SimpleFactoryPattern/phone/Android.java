@@ -1,4 +1,4 @@
-package dpattern.factory.simplefactorypattern.phone;
+package dpattern.factory.SimpleFactoryPattern.phone;
 
 public class Android implements Phone{
     @Override

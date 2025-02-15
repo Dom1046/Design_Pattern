@@ -1,11 +1,11 @@
-package dpattern.factory.simplefactorypattern.product;
+package dpattern.factory.SimpleFactoryPattern.product;
 
-import dpattern.factory.simplefactorypattern.phone.Phone;
-import dpattern.factory.simplefactorypattern.phone.PhoneFactory;
-import dpattern.factory.simplefactorypattern.phone.Type;
-import dpattern.factory.simplefactorypattern.phonecase.Material;
-import dpattern.factory.simplefactorypattern.phonecase.PhoneCase;
-import dpattern.factory.simplefactorypattern.phonecase.PhoneCaseFactory;
+import dpattern.factory.SimpleFactoryPattern.phone.Phone;
+import dpattern.factory.SimpleFactoryPattern.phone.PhoneFactory;
+import dpattern.factory.SimpleFactoryPattern.phone.Type;
+import dpattern.factory.SimpleFactoryPattern.phonecase.Material;
+import dpattern.factory.SimpleFactoryPattern.phonecase.PhoneCase;
+import dpattern.factory.SimpleFactoryPattern.phonecase.PhoneCaseFactory;
 
 public class ProductFactory implements Product {
 
