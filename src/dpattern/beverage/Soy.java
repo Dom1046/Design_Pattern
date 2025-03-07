@@ -5,12 +5,12 @@ public class Soy extends Beverage{
 
     @Override
     String getDescription() {
-        return beverage.getDescription();
+        return beverage.getDescription() + " 두유 추가";
     }
 
     @Override
-    void cost() {
-        beverage.cost();
+    public double cost() {
+        return beverage.cost() + .7;
     }
 
 }

@@ -9,8 +9,8 @@ public class Mocha extends Beverage {
     }
 
     @Override
-    void cost() {
-        beverage.cost();
+    public double cost() {
+        return 0;
     }
 
 }

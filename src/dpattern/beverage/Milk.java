@@ -3,13 +3,17 @@ package dpattern.beverage;
 public class Milk extends CondimentDecorator {
     Beverage beverage;
 
-    @Override
-    String getDescription() {
-        return beverage.getDescription();
+    public Milk(Beverage beverage) {
+        this.beverage = beverage;
     }
 
     @Override
-    void cost() {
-        beverage.cost();
+    public String getDescription() {
+        return beverage.getDescription() + " 우유추가";
+    }
+
+    @Override
+    public double cost() {
+        return beverage.cost() + .20;
     }
 }

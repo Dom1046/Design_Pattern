@@ -1,10 +1,10 @@
 package dpattern.beverage;
 
 public abstract class Beverage {
-    private String description;
+    public String description;
 
     String getDescription(){
         return description;
     }
-    void cost(){}
+    public abstract double cost();
 }

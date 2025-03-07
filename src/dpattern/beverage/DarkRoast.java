@@ -1,8 +1,13 @@
 package dpattern.beverage;
 
 public class DarkRoast extends Beverage{
+
+    public DarkRoast() {
+        description = "짙은 다크로스트 커피";
+    }
+
     @Override
-    void cost() {
-        super.cost();
+    public double cost() {
+        return .99;
     }
 }

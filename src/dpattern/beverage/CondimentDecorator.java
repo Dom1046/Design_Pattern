@@ -1,8 +1,12 @@
 package dpattern.beverage;
 
-public class CondimentDecorator extends Beverage{
+public abstract class CondimentDecorator extends Beverage{
+
     @Override
-    String getDescription() {
-        return super.getDescription();
+    public abstract String getDescription();
+
+    @Override
+    public double cost() {
+        return 0;
     }
 }

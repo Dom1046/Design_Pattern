@@ -5,12 +5,13 @@ public class Whip extends Beverage {
 
     @Override
     String getDescription() {
-        return beverage.getDescription();
+        return beverage.getDescription() + " 휘핑크림추가";
     }
 
     @Override
-    void cost() {
-        beverage.cost();
+    public double cost() {
+        return beverage.cost() + .5;
     }
+
 
 }
